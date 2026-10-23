@@ -31,10 +31,11 @@ Mi trabajo se centró en el backend y en la integración de IA:
 - Implementé el orquestador de matching con estados, umbral configurable, reintentos y creación de candidaturas.
 - Contribuí al optimizador ATS y a la generación de carta y email con Groq y OpenAI como fallback.
 - Implementé autenticación JWT, bcrypt, RBAC y el intercambio de OAuth de Google y LinkedIn con Supabase.
+- Contribuí a la integración del frontend React/Vite con la API en autenticación y flujos de datos.
 - Añadí rate limiting con Redis y fallback a memoria, validación con Zod y un manejador de errores tipado.
 - Mantuve los controles de calidad: TypeScript, Biome, Prisma validate, documentación y revisión de endpoints.
 
-La autoría del producto es compartida. Las áreas de frontend, diseño de producto, QA y partes del extractor de CV y de los prompts se desarrollaron en equipo.
+La autoría del producto es compartida. El diseño de producto, QA y partes del extractor de CV y de los prompts se desarrollaron en equipo.
 
 ## Funcionalidades
 
@@ -61,7 +62,7 @@ La autoría del producto es compartida. Las áreas de frontend, diseño de produ
 | Infraestructura | Render para la API, Vercel para el frontend y Supabase para datos y auth |
 | Calidad | Biome, TypeScript, Prisma validate y Pino |
 
-El frontend está construido con React y Vite. Mi trabajo se centró en la API, la persistencia y la integración con Supabase Auth y los proveedores de IA.
+El frontend está construido con React y Vite. Contribuí a su integración con la API en autenticación y flujos de datos; el diseño y desarrollo de la interfaz son compartidos con el equipo.
 
 ## Arquitectura
 
