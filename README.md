@@ -107,6 +107,7 @@ Los fragmentos son versiones reducidas y saneadas. No incluyen el código comple
 
 - La demo pública no expone el panel sin autenticación; las capturas del panel se tomaron con una cuenta ficticia creada para la demostración.
 - La IA depende de la cuota y latencia de proveedores externos.
+- Los motivos generados por la IA pueden usar un género gramatical distinto al del perfil; es una limitación de redacción del producto.
 - El proyecto aún no tiene una suite de tests automatizados; los controles actuales son tipos, lint y validación de Prisma.
 - El frontend no forma parte de este repositorio; el caso de estudio se centra en backend e integración.
 - Los prompts, pesos, reglas internas, esquema completo y código permanecen privados.
