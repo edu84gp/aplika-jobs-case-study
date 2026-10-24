@@ -22,7 +22,7 @@ El texto, la selección de fragmentos y las capturas de este repositorio se publ
 
 ## Sobre las capturas
 
-Las capturas de la landing muestran la superficie pública de la demo. Las capturas del panel se tomaron con una cuenta ficticia creada para la demostración. Las tarjetas del panel son datos de ejemplo y las cifras de la landing son mensajes de producto, no métricas verificadas. Las empresas de las capturas son ficticias; cualquier coincidencia con empresas reales es casual. La landing muestra logotipos de servicios de terceros citados por el producto; sus marcas pertenecen a sus titulares y no implican patrocinio.
+Las capturas del panel se tomaron con una cuenta ficticia creada para la demostración. Las tarjetas, empresas y cifras del panel son datos de ejemplo; las empresas son ficticias y cualquier coincidencia con empresas reales es casual. La demo pública abre un panel de demostración con datos ficticios y no contiene datos de usuarios reales.
 
 ## Acceso al código privado
 
