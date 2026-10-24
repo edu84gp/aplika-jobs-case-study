@@ -72,11 +72,17 @@ El flujo completo, el modelo de datos y el despliegue están en [docs/arquitectu
 
 ## Vista del producto
 
-![Landing pública de Aplika Jobs con un panel de ejemplo](docs/capturas/landing-hero.png)
+![Landing pública de Aplika Jobs con el mensaje de producto y una vista previa del panel](docs/capturas/landing-hero.png)
 
-![Pantalla de acceso con Google, LinkedIn y email](docs/capturas/login.png)
+![Panel de empleo con seis ofertas de ejemplo en un tablero Kanban; cinco en Por revisar y una en Aplicado](docs/capturas/panel-ofertas.png)
 
-Las tarjetas del panel son datos de ejemplo. Las cifras de la landing son mensajes de producto, no resultados medidos. El panel completo requiere una cuenta; la demo pública permite crear una.
+![Detalle de la oferta Backend Node.js Junior en Bruma Cloud con 68 % de compatibilidad, el motivo de la puntuación y cuatro habilidades faltantes](docs/capturas/detalle-oferta.png)
+
+![Resultado del matching manual de la oferta Desarrollador/a Full-Stack Junior en Órbita Soft con 70 % de compatibilidad y MongoDB como única habilidad faltante](docs/capturas/flujo-matching.png)
+
+Las capturas del panel usan una cuenta y datos ficticios: «Candidata Demo», el correo reservado `demo.aplika@example.com` y seis empresas de ejemplo creadas para la demostración. Las ofertas se crearon manualmente y no proceden de JSearch. Para la demostración se ajustó el umbral de compatibilidad y se evaluaron las ofertas con el perfil ficticio. Los porcentajes son la salida del matching sobre ese perfil y no representan resultados medidos del producto. Cualquier coincidencia con empresas reales es casual.
+
+Las cifras de la landing son mensajes de producto, no resultados medidos. La landing muestra logotipos de servicios de terceros citados por el producto; sus marcas pertenecen a sus titulares y no implican patrocinio. El panel completo requiere una cuenta; la demo pública permite crear una.
 
 ## Fragmentos comentados
 
@@ -99,7 +105,7 @@ Los fragmentos son versiones reducidas y saneadas. No incluyen el código comple
 
 ## Límites
 
-- La demo pública no expone el panel sin autenticación; las capturas muestran la superficie pública.
+- La demo pública no expone el panel sin autenticación; las capturas del panel se tomaron con una cuenta ficticia creada para la demostración.
 - La IA depende de la cuota y latencia de proveedores externos.
 - El proyecto aún no tiene una suite de tests automatizados; los controles actuales son tipos, lint y validación de Prisma.
 - El frontend no forma parte de este repositorio; el caso de estudio se centra en backend e integración.
@@ -116,4 +122,4 @@ El texto, la selección de fragmentos y las capturas de este repositorio se publ
 - Demo: [aplika-jobs.vercel.app](https://aplika-jobs.vercel.app)
 - Empresa: [Aplika Jobs en LinkedIn](https://www.linkedin.com/company/aplika-jobs/)
 
-Última actualización: 2026-10-23.
+Última actualización: 2026-10-24.
